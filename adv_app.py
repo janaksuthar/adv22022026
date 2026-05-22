@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 import pickle
 import numpy as np
 model=pickle.load(open('lr.sav','rb'))
